@@ -11,6 +11,7 @@ guess_number = 15:
 for outer in range (1,6);
     guess_number = int(input("Enter a digit: "))
 
+    
     if outer > 5{
     break
 }
