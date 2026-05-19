@@ -24,11 +24,11 @@ public static void main(String[]args){
     if(numberTwo > largest){
         largest = numberTwo;
 }
-    else if(numberThree > largest){
+     if(numberThree > largest){
         largest = numberThree;
 }
     
-        System.out.println(" Largest "+ largest);
+        System.out.printf("Largest is : %d%n", largest);
 }
 
 
