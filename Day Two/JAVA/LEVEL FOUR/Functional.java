@@ -109,16 +109,19 @@ public static int getSquare(int a){
 }
 
 //10
-         public static String getCount(String letters){
+         public static int getCount(String letters){
 
             String letter = "joyful";
             String news = "";
             int index;
-        for( index = letter.length()-1; index >= 0; index++){
+            int count =0;
+        for( index = letter.length()-1; index >= 0; index--){
+                
             news += letter.charAt(index);
+                count++;
       //  System.out.println()
 }
-        return index;
+        return count;
        
 }    
 }
